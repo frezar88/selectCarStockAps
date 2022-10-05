@@ -1,0 +1,13 @@
+.bottom-block{
+  .mobile-buttons{
+    display: none;
+  }
+}
+
+@media (max-width: 700px){
+  .bottom-block{
+    .mobile-buttons{
+      display: block;
+    }
+  }
+}

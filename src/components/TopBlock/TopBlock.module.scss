@@ -1,0 +1,29 @@
+.top_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    h2{
+        font-size: 25px !important;
+        color: #fff;
+        font-weight: bold;
+        font-family: Fonts;
+    }
+
+}
+
+@media (max-width: 700px){
+    .top_block{
+        display: block;
+    }
+}
+@media(max-width: 380px){
+    .top_block{
+
+        h2{
+            font-size:20px !important;
+
+        }
+
+    }
+}

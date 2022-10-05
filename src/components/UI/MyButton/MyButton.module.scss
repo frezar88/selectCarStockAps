@@ -1,0 +1,60 @@
+.list{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  .button-car{
+    background-color: var(--my-button);
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Fonts;
+    font-weight: bold;
+    font-size: 13px;
+    outline: 0;
+    overflow: hidden;
+    padding: 15px 2px;
+    position: relative;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    transition: .3s;
+    white-space: nowrap;
+    //min-width: 220px;
+    &:hover{
+      transition: .3s;
+      background: var(--my-button-hover);
+    }
+  }
+  .button-filter{
+    background-color: var(--my-button);
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Fonts;
+    font-weight: bold;
+    font-size: 14px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0px 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    transition: .3s;
+    //min-width: 50px;
+    &:hover{
+      transition: .3s;
+      background: var(--my-button-hover);
+    }
+    img{
+      transform: translateY(-4px);
+      width: 100%;
+    }
+  }
+}
+
